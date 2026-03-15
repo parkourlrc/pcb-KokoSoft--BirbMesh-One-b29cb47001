@@ -118,6 +118,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "2b7075ae-f544-4db4-926c-9487fd7f8a88")
 	)
 	(pad "2" smd rect
