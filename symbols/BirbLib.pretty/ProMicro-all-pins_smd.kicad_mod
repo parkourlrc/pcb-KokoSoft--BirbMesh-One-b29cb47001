@@ -55,86 +55,40 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -9.37 -15.99)
-		(end 8.41 -15.99)
+	(fp_rect
+		(start -9.38 -15.98)
+		(end 8.42 17.02)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "baf82f1c-a424-470b-b307-653e12dba6ff")
-	)
-	(fp_line
-		(start -9.37 17.03)
-		(end -9.37 -15.99)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "2100d264-26ce-422c-a7b3-709fd56c8679")
-	)
-	(fp_line
-		(start -4.996773 -10)
-		(end -4.996773 -15.99)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "84558ce9-3f6a-4657-b786-327949cd71cf")
-	)
-	(fp_line
-		(start 4.737795 -15.99)
-		(end 4.737795 -10)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "33b42423-aed5-4b42-bff6-c59a02e17715")
-	)
-	(fp_line
-		(start 4.737795 -10)
-		(end -4.996773 -10)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "df2a82e5-0a9d-447e-ba7b-025f4a9d85fe")
-	)
-	(fp_line
-		(start 8.41 -15.99)
-		(end 8.41 17.03)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "f50c9dc3-ae6a-4228-bc69-c726dc478b37")
-	)
-	(fp_line
-		(start 8.41 17.03)
-		(end -9.37 17.03)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7f9c9fca-1db0-44ae-b561-44f02ca3bad8")
+		(uuid "62bf8ba6-9e88-458e-b72f-79a20601925e")
 	)
 	(fp_rect
-		(start -9.428562 -16.063676)
-		(end 8.476654 17.096246)
+		(start -5.15 -16.7)
+		(end 4.15 -10)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e8843a08-75fc-4312-bc90-896fac8b6cc7")
+	)
+	(fp_poly
+		(pts
+			(xy -5.2 -16) (xy -9.4 -16) (xy -9.4 17.05) (xy 8.45 17.05) (xy 8.45 -16) (xy 4.2 -16) (xy 4.2 -16.75)
+			(xy -5.2 -16.75)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b21cd9ad-c718-4391-ade0-68bc3fd4b67c")
+		(uuid "74098bfa-3947-4653-85bc-2b3e7715b7a6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -2.286 0.254 270)
@@ -148,7 +102,7 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd circle
 		(at -8.1 -14.72 180)
 		(size 1.7 1.7)
 		(layers "F.Cu" "F.Mask")

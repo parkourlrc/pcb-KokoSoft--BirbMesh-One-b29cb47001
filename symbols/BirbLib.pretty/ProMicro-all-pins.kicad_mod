@@ -55,86 +55,40 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start -9.37 -15.99)
-		(end 8.41 -15.99)
+	(fp_rect
+		(start -9.38 -15.98)
+		(end 8.42 17.02)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "baf82f1c-a424-470b-b307-653e12dba6ff")
-	)
-	(fp_line
-		(start -9.37 17.03)
-		(end -9.37 -15.99)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "2100d264-26ce-422c-a7b3-709fd56c8679")
-	)
-	(fp_line
-		(start -5 -10)
-		(end -5 -15.99)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5c160bdb-d24f-447e-a5f5-11d2b6ed2010")
-	)
-	(fp_line
-		(start 4.734568 -15.99)
-		(end 4.734568 -10)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "ee047065-bc70-4515-b91a-0abf62315160")
-	)
-	(fp_line
-		(start 4.734568 -10)
-		(end -5 -10)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c4171c6b-e83c-4c69-91d8-5abbbacdaa56")
-	)
-	(fp_line
-		(start 8.41 -15.99)
-		(end 8.41 17.03)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "f50c9dc3-ae6a-4228-bc69-c726dc478b37")
-	)
-	(fp_line
-		(start 8.41 17.03)
-		(end -9.37 17.03)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7f9c9fca-1db0-44ae-b561-44f02ca3bad8")
+		(uuid "856b533f-8eec-4f0b-ac06-814b9a1dfd03")
 	)
 	(fp_rect
-		(start -9.431789 -16.063676)
-		(end 8.473427 17.096246)
+		(start -5.15 -16.7)
+		(end 4.15 -10)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9613ae02-af2a-47d8-863f-2c674b9d4af8")
+	)
+	(fp_poly
+		(pts
+			(xy -5.2 -16) (xy -9.4 -16) (xy -9.4 17.05) (xy 8.45 17.05) (xy 8.45 -16) (xy 4.2 -16) (xy 4.2 -16.75)
+			(xy -5.2 -16.75)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9654a43f-d632-49f1-9a46-53dd5c56dd3b")
+		(uuid "b6b65447-026f-4742-be11-b2957b274a4c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -2.54 1.27 270)
@@ -148,7 +102,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
 		(at -8.1 -14.72 180)
 		(size 1.7 1.7)
 		(drill 1)
